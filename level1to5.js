@@ -1,4 +1,5 @@
-const l1map = [
+if (gameLevel == 1) {
+ map = [
   [1, 3, 1, 1, 1, 4, 1, 1, 1, 1],
   [1, 0, 1, 0, 1, 0, 1, 0, 0, 1],
   [1, 0, 1, 0, 1, 0, 1, 0, 0, 1],
@@ -9,8 +10,9 @@ const l1map = [
   [1, 1, 1, 1, 1, 1, 0, 1, 1, 1],
   [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
   [1, 1, 1, 1, 1, 1, 1, 1, 3, 1]
- ],
- l1playerPos = [1, 8],
- l1mapWidth = 10,
- l1mapHeight = 10,
- l1mapBox = 25;
+ ];
+ playerPos = [1, 8];
+ mapWidth = 10;
+ mapHeight = 10;
+ mapBox = 25;
+}
